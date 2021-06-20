@@ -1,6 +1,6 @@
 <template>
-<footer class="text-gray-600 body-font">
-  <div class="px-5 pt-8 pb-4 mx-auto flex items-center sm:flex-row flex-col">
+<footer class="text-gray-600 body-font max-w-6xl mx-auto">
+  <div class=" pt-8 pb-4 mx-auto flex items-center sm:flex-row flex-col">
     <a href="/" class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
       <span class="ml-3 text-xl">Sal Learns to Code</span>
     </a>

@@ -1,6 +1,6 @@
 <template>
-    <div class="max-full">
-        <nav class="bg-gray-200 max-w-full sm:py-4">
+    <div class="max-w-full  bg-gray-200">
+        <nav class="max-w-6xl mx-auto sm:py-4">
             <div class="mx-auto px-2 sm:px-6 lg:px-8">
                 <div class="relative w-full flex items-center justify-between py-8 sm:py-0">
                 <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -18,19 +18,17 @@
                     </svg>
                     </button>
                 </div>
-                <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                    <div class="flex-shrink-0">
-                    <!-- <img class="block lg:hidden h-8 w-auto" src="../static/img/logo.svg" alt="logo">
-                    <img class="hidden lg:block h-8 w-auto" src="../static/img/logo.svg" alt="logo"> -->
-                    </div>
-                    <div class="hidden sm:block sm:ml-6 mx-auto">
-    
-                    <div class="flex w-full justify-center">
-                        <a href="/" class="px-3 py-2 rounded-md text-sm font-medium leading-5 text-white bg-gray-400 focus:outline-none focus:text-white focus:bg-gray-600 transition duration-150 ease-in-out">Home</a>
-                        <a href="/about" class="ml-4 px-3 py-2 rounded-md text-sm font-medium leading-5 text-gray-600 hover:text-white hover:bg-gray-600 focus:outline-none focus:text-white focus:bg-gray-600 transition duration-150 ease-in-out">About</a>
-                    </div>
-                    </div>
+                <header class="hidden sm:block text-gray-600 body-font">
+                <div class=" mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
+                    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 pr-8 ">
+                    <span class="ml-3 text-xl">Sal Learns to Code</span>
+                    </a>
+                    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                    <a href="/" class="mr-5 hover:text-gray-900">Home</a>
+                    <a href="/about" class="mr-5 hover:text-gray-900">About</a>
+                    </nav>
                 </div>
+                </header>
                 </div>
             </div>
 

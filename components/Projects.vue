@@ -1,9 +1,10 @@
 <template>
 <div>
+<div class="max-6xl mx-auto">
     <section id="refined-landscapes" class="text-gray-600 body-font overflow-hidden">
-    <div class="container px-5 py-12 mx-auto">
+    <div class=" px-5 py-12 mx-auto">
         <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 text-left">
+        <div class="lg:w-1/2 w-full lg:pr-24 lg:py-6 mb-6 lg:mb-0 text-left">
             <h2 class="text-sm title-font text-gray-500 tracking-widest uppercase">Case Study</h2>
             <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">Refined Landscapes</h1>
             <div class="flex mb-4">
@@ -37,9 +38,9 @@
 </section>
 
 <section id="lera" class="text-gray-600 body-font overflow-hidden">
-    <div class="container px-5 py-12 mx-auto">
+    <div class=" px-5 py-8 mx-auto">
         <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 text-left">
+        <div class="lg:w-1/2 w-full lg:pr-24 lg:py-6 mb-6 lg:mb-0 text-left">
             <h2 class="text-sm title-font text-gray-500 tracking-widest uppercase">Case Study</h2>
             <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">London Equity Release Advice</h1>
             <div class="flex mb-4">
@@ -73,9 +74,9 @@
 </section>
 
 <section id="Master Private Finance" class="text-gray-600 body-font overflow-hidden">
-    <div class="container px-5 py-12 mx-auto">
+    <div class="px-5 py-8 mx-auto">
         <div class="lg:w-4/5 mx-auto flex flex-wrap">
-        <div class="lg:w-1/2 w-full lg:pr-10 lg:py-6 mb-6 lg:mb-0 text-left">
+        <div class="lg:w-1/2 w-full lg:pr-24 lg:py-6 mb-6 lg:mb-0 text-left">
             <h2 class="text-sm title-font text-gray-500 tracking-widest uppercase">Case Study</h2>
             <h1 class="text-gray-900 text-3xl title-font font-medium mb-4">Master Private Finance</h1>
             <div class="flex mb-4">
@@ -108,13 +109,13 @@
     </div>
 </section>
 
-<section class="text-gray-600 body-font">
-  <div class=" px-5 py-12 mx-auto">
+<section class="text-gray-600 body-font max-w-6xl mx-auto">
+  <div class=" px-5 py-8 mx-auto">
     <div class="flex flex-col text-center w-full mb-8">
       <h2 class="text-xs text-gray-500 tracking-widest font-medium title-font mb-1">CASE STUDIES</h2>
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">Other Projects</h1>
     </div>
-    <div class="flex flex-wrap -m-4">
+    <div class="flex flex-wrap -m-4 justify-center">
       <div class="p-4 md:w-1/3">
         <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
           <div class="flex items-center mb-3">
@@ -181,5 +182,6 @@
     </div>
   </div>
 </section>
+</div>
 </div>
 </template>
