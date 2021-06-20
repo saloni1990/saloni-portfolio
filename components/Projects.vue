@@ -126,7 +126,7 @@
             <h2 class="text-gray-900 text-lg title-font font-medium">Poppies Pre-School</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+            <p class="leading-relaxed text-base">Website and Statamic CMS created for a pre-school so that the client could manage important documents in the CMS, ensuring parents are kept up-to-date with relevant information.</p>
             <a href="https://poppiesandpoppyfields-nursery.co.uk/" target="_blank" class="mt-3 text-gray-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -147,7 +147,7 @@
             <h2 class="text-gray-900 text-lg title-font font-medium">Epic Playgrounds</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+            <p class="leading-relaxed text-base">A static NuxtJS website to show services on offer and a form that future clients could contact the client on to enquire more.</p>
             <a href="https://epicplaygrounds.co.uk/" target="_blank" class="mt-3 text-gray-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -169,7 +169,7 @@
             <h2 class="text-gray-900 text-lg title-font font-medium">Interactive Agents</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed text-base">Blue bottle crucifix vinyl post-ironic four dollar toast vegan taxidermy. Gastropub indxgo juice poutine.</p>
+            <p class="leading-relaxed text-base">A site built with NuxtJS with a Netlify CMS so that the client can add more pages and case studies at their convenience. </p>
             <a href="https://interactive-agents.com/" target="_blank" class="mt-3 text-gray-500 inline-flex items-center">Learn More
               <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                 <path d="M5 12h14M12 5l7 7-7 7"></path>
