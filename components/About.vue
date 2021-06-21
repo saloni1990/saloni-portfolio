@@ -17,7 +17,7 @@
         </div>
         <div class="md:flex-grow text-left">
           <h2 class="text-2xl font-medium text-gray-900 title-font mb-2"> Freelance Front-End Web Developer - YouI Design</h2>
-          <p class="leading-relaxed">I started learning web development as a hobby but quickly realised how passionate I am about web development so I have been freelancing part-time at YouI Limited. I learnt how the business functioned and I was exposed to the whole process of understanding the client's requirements, taking a brief to create mock-ups for a website and then finally implementing a bespoke, mobile-optimised website which was connected to a content management system. Take a look below to find out more about what I have been about to.</p>
+          <p class="leading-relaxed">I started learning web development as a hobby but quickly realised how passionate I am about web development so I have been freelancing part-time at YouI Limited. I learnt how the business functioned and I was exposed to the whole process of understanding the client's requirements, taking a brief to create mock-ups for a website and then finally implementing a bespoke, mobile-optimised website which was connected to a content management system.</p>
         </div>
       </div>
       <div class="py-8 flex flex-wrap md:flex-nowrap">
