@@ -20,6 +20,7 @@ export default {
         hid: 'netlify-id',
         src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'
       },
+      { src: '/body.js', body: true }
     ]
   },
 
@@ -29,7 +30,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    'plugins/body.js'
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
