@@ -17,8 +17,10 @@ export default {
     script: [
       {
         src: 'http://www.sallearnstocode.co.uk',
-        hid: 'netlify-id'
-      }
+        hid: 'netlify-id',
+        src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'
+      },
+      { src: '/body.js', body: true }
     ]
   },
 

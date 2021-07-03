@@ -6,6 +6,7 @@
       <Projects />
       <Footer />
     </div>
+    
   </div>
 </template>
 

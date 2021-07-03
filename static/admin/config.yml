@@ -1,0 +1,43 @@
+backend:
+  name: git-gateway
+  repo: saloni-portfolio/saloni1990.github.io
+  branch: master # Branch to update (optional; defaults to master)
+
+media_folder: "/static/images/uploads" # Media files will be stored in the repo under images/uploads
+public_folder: "/images/uploads"
+publish_mode: editorial_workflow
+
+site_url: https://www.sallearnstocode.co.uk
+
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    format: 'json'
+    folder: 'assets/content/blog'
+    create: true
+    slug: "{{slug}}"
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "blog", required: false}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Category", name: "category", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", required: false}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Video", name: "video", widget: "string", required: false}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
+      - label: "Gallery" 
+        name: "galleryImages"
+        widget: "list"
+        required: false
+        fields: 
+          - {label: Alt Tag, name: altTag, widget: string, required: false}
+          - {label: Image, name: image, widget: image}
+  - label: "About"
+    name: 'about'
+    format: 'json'
+    folder: 'assets/content/about'
+    create: true
+    slug: "{{slug}}"
+    fields: 
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
+      - {label: "Body", name: "body", widget: "markdown", required: false}
