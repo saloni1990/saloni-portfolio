@@ -1,6 +1,6 @@
 <template>
 <div>
-<div class="max-6xl mx-auto">
+<div class="max-w-6xl mx-auto">
   <div class="flex flex-col text-center w-full mb-8">
       <h2 class="text-xs text-gray-500 tracking-widest font-medium title-font mb-1">CASE STUDIES</h2>
       <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900">Projects</h1>
@@ -36,7 +36,7 @@
             </button> -->
             </div>
         </div>
-        <img alt="Refined Landscapes Case Study" class="lg:w-1/2 w-full lg:h-auto h-64 object-cover object-center rounded shadow-lg" src="https://res.cloudinary.com/saloni/image/upload/v1565807060/RL_lhp3dm.jpg">
+        <img alt="Refined Landscapes Case Study" class="w-1/2 lg:h-auto h-64 object-cover object-center rounded shadow-lg" src="https://res.cloudinary.com/saloni/image/upload/v1565807060/RL_lhp3dm.jpg">
         </div>
     </div>
 </section>
