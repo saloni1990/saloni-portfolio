@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
   repo: saloni1990/saloni-portfolio
-  branch: master # Branch to update (optional; defaults to master)
+  branch: main # Branch to update (optional; defaults to master)
 
 media_folder: "/static/images/uploads" # Media files will be stored in the repo under images/uploads
 public_folder: "/images/uploads"
