@@ -31,13 +31,13 @@ collections:
         fields: 
           - {label: Alt Tag, name: altTag, widget: string, required: false}
           - {label: Image, name: image, widget: image}
-  - label: "About"
-    name: 'about'
-    format: 'json'
-    folder: 'assets/content/about'
-    create: true
-    slug: "{{slug}}"
-    fields: 
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
+  # - label: "About"
+  #   name: 'about'
+  #   format: 'json'
+    # folder: 'assets/content/_about'
+    # create: true
+    # slug: "{{slug}}"
+    # fields: 
+    #   - {label: "Title", name: "title", widget: "string"}
+    #   - {label: "Featured Image", name: "thumbnail", widget: "image"}
+    #   - {label: "Body", name: "body", widget: "markdown", required: false}
