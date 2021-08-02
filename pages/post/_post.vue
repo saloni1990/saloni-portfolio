@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <div :key="post.slug" v-bind="post in post" class="content">
+    <div :key="post.slug" v-bind="post in posts" class="content">
       <h1>{{ post.title }}</h1>
 
 
@@ -24,16 +24,16 @@ export default {
     Header
   },
   async asyncData({ $content, params, error }) {
-    let post;
+    let posts;
     try {
-      post = await $content("post", params.slug).fetch();
+      posts = await $content("post", params.slug).fetch();
       // OR const article = await $content(`articles/${params.slug}`).fetch()
     } catch (e) {
       error({ message: "Blog Post not found" });
     }
 
     return {
-      post,
+      posts,
     };
   },
   methods: {
