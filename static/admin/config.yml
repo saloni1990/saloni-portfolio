@@ -6,6 +6,7 @@ backend:
 media_folder: "/static/images/uploads" # Media files will be stored in the repo under images/uploads
 public_folder: "/images/uploads"
 publish_mode: editorial_workflow
+use_secure_url: true
 
 site_url: https://www.sallearnstocode.co.uk
 
