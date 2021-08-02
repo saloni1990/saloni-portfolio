@@ -1,8 +1,9 @@
 <template>
   <div class="container">
         <div class="w-full flex flex-col justify-between sm:w-1/2 md:w-1/3 lg:w-1/4 pb-8" v-for="post in posts" :key="post.slug">
-
+            <a class="" :href="'/blog/' + post.slug">
              <h1> {{ post.title }}</h1> 
+            </a>
         </div>
 
   </div>
