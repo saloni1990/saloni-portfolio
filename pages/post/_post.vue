@@ -1,12 +1,28 @@
 <template>
   <div>
-    <h2>{{ post.title }}</h2>
-   
+    <Header />
+    <div :key="post.slug" v-bind="post in post" class="content">
+      <h1>{{ post.title }}</h1>
+
+
+
+      <div v-html="parseMarkdown(post.body)"></div>
+
+
+
+
+    </div>
   </div>
 </template>
 
 <script>
+import marked from 'marked'
+import Header from '~/components/Header.vue'
+
 export default {
+  components: {
+    Header
+  },
   async asyncData({ $content, params, error }) {
     let post;
     try {
@@ -20,5 +36,12 @@ export default {
       post,
     };
   },
-};
+  methods: {
+    parseMarkdown(content) {
+      if (content) {
+        return marked(content)
+      }
+    }
+  }
+}
 </script>
