@@ -16,7 +16,7 @@ export default {
     ],
     script: [
       {
-        src: 'http://www.sallearnstocode.co.uk',
+        src: 'https://www.sallearnstocode.co.uk',
         hid: 'netlify-id',
       }    ]
   },
