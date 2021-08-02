@@ -5,18 +5,6 @@
       <Intro />
       <Projects />
       <Footer />
-
-      <div class="w-full flex flex-col justify-between sm:w-1/2 md:w-1/3 lg:w-1/4 pb-8" v-for="blog in blog" :key="blog.slug">
-
-          <a class="" :href="'/blog/' + blog.slug">{{ blog.title }}
-          <div class="flex justify-center items-end pt-2">
-            <img :src="blog.thumbnail" alt="">
-          </div>
-          </a>    
-        </div>
-
-    </div>
-    
   </div>
 </template>
 
@@ -39,11 +27,6 @@ export default {
     return {
       script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
     };
-  },
-  computed: {
-    project() {
-      return this.$store.state.blog;
-    },
   },
 }
 </script>

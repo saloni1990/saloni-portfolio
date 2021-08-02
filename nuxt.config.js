@@ -18,7 +18,6 @@ export default {
       {
         src: 'http://www.sallearnstocode.co.uk',
         hid: 'netlify-id',
-        src: 'https://identity.netlify.com/v1/netlify-identity-widget.js'
       }    ]
   },
 
@@ -42,7 +41,8 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios'
+    '@nuxtjs/axios',
+    '@nuxt/content'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
