@@ -13,7 +13,7 @@ collections:
   - name: 'post'
     label: 'Post'
     format: 'json'
-    folder: 'content/post'
+    folder: 'assets/content/post'
     create: true
     slug: "{{slug}}"
     fields: # The fields for each document, usually in front matter
