@@ -1,25 +1,29 @@
 <template>
   <div>
-    <div :key="post.slug" v-bind="post in post" class="content">
-      <h1>{{ post.title }}</h1>
+    <Header />
 
-      
+      <div class="container">
+          
+            <div :key="post.slug" v-bind="post in post" class="content">
+             <h1>{{ post.title }}</h1>
+
+             <div v-html="parseMarkdown(post.body)"></div>
 
 
-      <div v-html="parseMarkdown(post.body)"></div>
 
 
-
-
-    </div>
+            </div>
+      </div>
   </div>
 </template>
 
 <script>
 import marked from 'marked'
+import Header from '../../components/Header.vue'
 
 export default {
   components: {
+    Header
 
   },
   async asyncData({ params, payload }) {

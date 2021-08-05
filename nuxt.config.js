@@ -1,11 +1,21 @@
 export default {
+    /*
+  ** Nuxt rendering mode
+  ** See https://nuxtjs.org/api/configuration-mode
+  */
+  mode: 'universal',
+  /*
+  /*
+  ** Headers of the page
+  ** See https://nuxtjs.org/api/configuration-head
+  */
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Saloni Robinson', 
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
       { property: 'og:image', content: '/icon.png' },
     ],
     link: [
