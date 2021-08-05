@@ -4,15 +4,13 @@
 
       <div class="container">
           
-            <div :key="post.slug" v-bind="post in post" class="content">
+            
              <h1>{{ post.title }}</h1>
 
              <div v-html="parseMarkdown(post.body)"></div>
 
 
 
-
-            </div>
       </div>
   </div>
 </template>
@@ -22,6 +20,11 @@ import marked from 'marked'
 import Header from '../../components/Header.vue'
 
 export default {
+    data() {
+    return {
+      index: 0
+    }
+  },
   components: {
     Header
 
