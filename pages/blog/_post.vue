@@ -30,7 +30,7 @@ export default {
     if (payload) return { post: payload }
     else
       return {
-        post: await require(`~/content/post/${params.post}.json`)
+        post: await require(`~/assets/content/post/${params.post}.json`)
       }
   },
   methods: {
