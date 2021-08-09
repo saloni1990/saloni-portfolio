@@ -19,17 +19,11 @@ export default {
   components: {
     Header
   },  
-   async asyncData({ $content }) {
-    const posts = await $content("post").fetch();
-
-    return {
-      posts,
-    };
+   computed: {
+    post() {
+      return this.$store.state.post;
+    },
   },
-  head() {
-    return {
-      script: [{ src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }],
-    };
-  },
+  
 };
 </script>
