@@ -17,6 +17,7 @@
     "cloudinary-vue": "^1.1.1",
     "fs": "^0.0.1-security",
     "marked": "^2.0.7",
+    "mdast-util-from-markdown": "^1.0.0",
     "nuxt": "^2.4.5"
   },
   "devDependencies": {
